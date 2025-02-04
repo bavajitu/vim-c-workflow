@@ -1,0 +1,16 @@
+{
+  "suggest.triggerAfterInsertEnter": true,
+  "suggest.noselect": false,
+  "coc.preferences.triggerCompletionWait": 0,
+  "languageserver": {
+    "clangd": {
+      "command": "clangd",
+      "filetypes": ["c", "cpp", "objc", "objcpp"],
+      "rootPatterns": [".clangd", ".git/", "compile_commands.json"],
+      "initializationOptions": {
+        "clangdFileStatus": true
+      }
+    }
+  }
+}
+
